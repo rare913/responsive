@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(./empty-room-gray-wall-room-with-wooden-floor.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .ch1 {
+            margin-top: 100px;
+            margin-left: 200px;
+            position: relative;
+        }
+
+        .ch1 img {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+        }
+
+        .ch1 p {
+            position: absolute;
+            font-size: x-large;
+            padding-left: 400px;
+            padding-top: 50px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .ch2 {
+            position: relative;
+            margin-top: 200px;
+            margin-left: 1200px;
+            color: rgb(97, 97, 97);
+        }
+
+        .ch2 p {
+            max-width: 500px;
+
+        }
+
+        .ch2 h1 {
+            padding-top: 100px;
+        }
+
+        input {
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: rgb(59, 59, 59);
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width:600px) {
+            .ch1 {
+                margin-top: 50px;
+                margin-left: -20px;
+                position: relative;
+            }
+
+            .ch1 img {
+                width: 400px;
+                height: 400px;
+                position: absolute;
+            }
+
+            .ch1 p {
+                position: absolute;
+                font-size: small;
+                padding-left: 280px;
+                padding-top: 50px;
+                max-width: 600px;
+                text-align: center;
+            }
+
+            .ch2 {
+                position: relative;
+                margin-top: 200px;
+                margin-left: 30px;
+                color: rgb(97, 97, 97);
+            }
+
+            .ch2 p {
+                max-width: 400px;
+
+            }
+
+            .ch2 h1 {
+                padding-top: 500px;
+            }
+
+            input {
+                width: 150px;
+                height: 40px;
+                border: none;
+                background-color: rgb(59, 59, 59);
+                color: white;
+                margin-top: 30px;
+                margin-bottom: 300px;
+            }
+        }
+
+        @media screen and (min-device-width: 601px) and (max-device-width: 1080px) { 
+            .ch1 {
+            margin-top: 100px;
+            margin-left: -20px;
+            position: relative;
+        }
+
+        .ch1 img {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+        }
+
+        .ch1 p {
+            position: absolute;
+            font-size: large;
+            padding-left: 350px;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .ch2 {
+            position: relative;
+            margin-top: 200px;
+            margin-left: 100px;
+            color: rgb(97, 97, 97);
+        }
+
+        .ch2 p {
+            max-width: 500px;
+
+        }
+
+        .ch2 h1 {
+            padding-top: 700px;
+        }
+
+        input {
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: rgb(59, 59, 59);
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+    
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="ch1">
+            <img src="./man-with-laptop-removebg-preview.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, iste?</p>
+
+        </div>
+        <div class="ch2">
+            <h1>Lorem ipsum dolor sit <br> amet consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ullam cum hic sed! Sapiente, impedit!
+                Quisquam ducimus corporis dicta soluta commodi molestias adipisci beatae a aperiam voluptatibus hic
+                architecto ipsa quas eligendi possimus itaque consequuntur culpa esse, veniam odio laborum?</p>
+            <input type="button" value="Click Me">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
